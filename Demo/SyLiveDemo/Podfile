@@ -1,0 +1,11 @@
+
+platform :ios, '8.0'
+#use_frameworks!
+
+target "SyLiveDemo" do
+
+      pod 'SyLiveSDK', :git => 'https://github.com/shouyintv/SyLiveSDK_iOS.git'
+#      pod 'SyLiveSDK', :path => '../..'
+
+end
+

@@ -1,0 +1,136 @@
+{
+  "name": "SyLiveSDK",
+  "version": "0.1.0",
+  "summary": "tv.shouyin.showing.open.sdk",
+  "homepage": "http://code.shanggou.la/ios/openSDK",
+  "license": "Apache License, Version 2.0",
+  "authors": {
+    "SyLiveSDK": "http://www.quanmin.tv"
+  },
+  "source": {
+    "git": "https://github.com/shouyintv/SyLiveSDK_iOS.git"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CoreFoundation",
+    "CoreLocation",
+    "WebKit",
+    "AVFoundation",
+    "CoreGraphics",
+    "CFNetwork",
+    "AudioToolbox",
+    "CoreMedia",
+    "VideoToolbox",
+    "ImageIO",
+    "CoreTelephony",
+    "CoreMotion",
+    "AssetsLibrary",
+    "EventKit",
+    "MessageUI",
+    "MobileCoreServices",
+    "JavaScriptCore",
+    "StoreKit",
+    "SystemConfiguration",
+    "Security"
+  ],
+  "weak_frameworks": [
+    "AdSupport",
+    "UserNotifications"
+  ],
+  "libraries": [
+    "z",
+    "c++",
+    "icucore",
+    "sqlite3",
+    "iconv"
+  ],
+  "vendored_frameworks": "Pod/Library/*.framework",
+  "resources": [
+    "Pod/Assets/SyLiveResource.bundle",
+    "Pod/Assets/SyLiveXib.bundle",
+    "Pod/Assets/NIMKitResouce.bundle"
+  ],
+  "dependencies": {
+    "AMapLocation": [
+      "2.3.1"
+    ],
+    "ProtocolBuffers": [
+      "1.9.11"
+    ],
+    "NIMSDK_LITE": [
+      "3.4.1"
+    ],
+    "SDWebImage": [
+      "~> 3.7.5"
+    ],
+    "SVProgressHUD": [
+      "~> 2.1.2"
+    ],
+    "CocoaLumberjack": [
+      "~> 2.3.0"
+    ],
+    "SSZipArchive": [
+
+    ],
+    "LDNetDiagnoService": [
+
+    ],
+    "UMengAnalytics": [
+      "~> 4.1.10"
+    ],
+    "MJExtension": [
+      "~> 3.0.10"
+    ],
+    "MJRefresh": [
+      "~> 3.1.0"
+    ],
+    "SDCycleScrollView": [
+      "~> 1.64"
+    ],
+    "GTSDK": [
+      "~> 1.6.2"
+    ],
+    "FMDB/standard": [
+
+    ],
+    "AFNetworking": [
+      "~> 3.1.0"
+    ],
+    "Reachability": [
+      "~> 3.2"
+    ],
+    "YYKit": [
+      "~> 1.0.9"
+    ],
+    "FCFileManager": [
+      "~> 1.0.17"
+    ],
+    "libextobjc": [
+      "~> 0.4.1"
+    ],
+    "Masonry": [
+      "~> 1.0.1"
+    ],
+    "pili-librtmp": [
+      "1.0.6"
+    ],
+    "HappyDNS": [
+      "0.3.10"
+    ],
+    "QNNetDiag": [
+      "0.0.4"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "StreamSDK",
+      "source_files": "Pod/Library/StreamSDK/include/*/*.h",
+      "vendored_libraries": "Pod/Library/StreamSDK/*.a"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+../../../../../../Pod/Library/StreamSDK/include/Common/PLVideoCaptureConfiguration.h

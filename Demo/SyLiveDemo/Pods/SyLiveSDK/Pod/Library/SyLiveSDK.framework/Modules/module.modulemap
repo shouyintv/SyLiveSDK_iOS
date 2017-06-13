@@ -1,0 +1,6 @@
+framework module SyLiveSDK {
+  umbrella header "SyLiveSDK.h"
+
+  export *
+  module * { export * }
+}
