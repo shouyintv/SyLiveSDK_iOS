@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.homepage         = "http://code.shanggou.la/ios/openSDK"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "SyLiveSDK" => "http://www.quanmin.tv" }
-  s.source           = { :git => "https://github.com/shouyintv/SyLiveSDK_iOS.git" }
+  s.source           = { :git => "https://github.com/shouyintv/SyLiveSDK_iOS.git", :tag => "v#{s.version}" }
 
   s.platform     = :ios
   s.ios.deployment_target = '8.0'
@@ -69,9 +69,14 @@ Pod::Spec.new do |s|
 
 
   s.subspec "StreamSDK" do |ss1|
-    # ss1.public_header_files = 'Pod/Library/StreamSDK/include/*/*.h'
     ss1.source_files = 'Pod/Library/StreamSDK/include/*/*.h'
     ss1.vendored_libraries = 'Pod/Library/StreamSDK/*.a'   #依赖的第三方静态库
+  end
+
+  s.subspec "ZMSDK" do |ss2|
+    ss2.source_files = 'Pod/Library/ZMSDK/livenessModel/*.{h,m}'
+    ss2.resources = 'Pod/Library/ZMSDK/*.bundle'
+    ss2.vendored_frameworks = 'Pod/Library/ZMSDK/*.framework'
   end
 
 end
