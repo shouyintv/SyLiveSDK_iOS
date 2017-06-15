@@ -13,6 +13,9 @@
 * **实名认证**
 * **订单充值** 
 
+## SyLiveSDK 文档
+请参考文档:[SyLiveSDK 文档](https://github.com/shouyintv/SyLiveSDK_iOS)  
+
 
 
 
