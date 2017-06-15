@@ -1,1 +1,1 @@
-../../../../../../Pod/Library/StreamSDK/include/PLStreamingKit/PLStreamingSession.h
+../../../SyLiveSDK/Pod/Library/StreamSDK/include/PLStreamingKit/PLStreamingSession.h

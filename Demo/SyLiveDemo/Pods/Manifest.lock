@@ -103,9 +103,34 @@ PODS:
     - SSZipArchive
     - SVProgressHUD (~> 2.1.2)
     - SyLiveSDK/StreamSDK (= 0.1.0)
+    - SyLiveSDK/ZMSDK (= 0.1.0)
     - UMengAnalytics (~> 4.1.10)
     - YYKit (~> 1.0.9)
   - SyLiveSDK/StreamSDK (0.1.0):
+    - AFNetworking (~> 3.1.0)
+    - AMapLocation (= 2.3.1)
+    - CocoaLumberjack (~> 2.3.0)
+    - FCFileManager (~> 1.0.17)
+    - FMDB/standard
+    - GTSDK (~> 1.6.2)
+    - HappyDNS (= 0.3.10)
+    - LDNetDiagnoService
+    - libextobjc (~> 0.4.1)
+    - Masonry (~> 1.0.1)
+    - MJExtension (~> 3.0.10)
+    - MJRefresh (~> 3.1.0)
+    - NIMSDK_LITE (= 3.4.1)
+    - pili-librtmp (= 1.0.6)
+    - ProtocolBuffers (= 1.9.11)
+    - QNNetDiag (= 0.0.4)
+    - Reachability (~> 3.2)
+    - SDCycleScrollView (~> 1.64)
+    - SDWebImage (~> 3.7.5)
+    - SSZipArchive
+    - SVProgressHUD (~> 2.1.2)
+    - UMengAnalytics (~> 4.1.10)
+    - YYKit (~> 1.0.9)
+  - SyLiveSDK/ZMSDK (0.1.0):
     - AFNetworking (~> 3.1.0)
     - AMapLocation (= 2.3.1)
     - CocoaLumberjack (~> 2.3.0)
@@ -135,11 +160,17 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
-  - SyLiveSDK (from `../..`)
+  - SyLiveSDK (from `https://github.com/shouyintv/SyLiveSDK_iOS.git`, tag `v0.1.0`)
 
 EXTERNAL SOURCES:
   SyLiveSDK:
-    :path: ../..
+    :git: https://github.com/shouyintv/SyLiveSDK_iOS.git
+    :tag: v0.1.0
+
+CHECKOUT OPTIONS:
+  SyLiveSDK:
+    :git: https://github.com/shouyintv/SyLiveSDK_iOS.git
+    :tag: v0.1.0
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -164,10 +195,10 @@ SPEC CHECKSUMS:
   SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
   SSZipArchive: 04547dfa448be5ed7ecbaf7eaf8a6e9eb9b42997
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
-  SyLiveSDK: be8513d502cb72b2dfef857957ab3fd50fe0bba9
+  SyLiveSDK: f832e521159290eb1c54e918fb34c6ce55ce61e1
   UMengAnalytics: 40585031b7eb085534c68a951b394731e7166257
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: bda1e3dae54bda38a9e3a665fea09b5f9ee92fc2
+PODFILE CHECKSUM: 340b563010474a43bc623eea6c2a9749fc7d5094
 
 COCOAPODS: 1.0.1

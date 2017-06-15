@@ -1,1 +1,1 @@
-../../../../../../Pod/Library/StreamSDK/include/Common/PLAudioEffectConfiguration.h
+../../../SyLiveSDK/Pod/Library/StreamSDK/include/Common/PLAudioEffectConfiguration.h

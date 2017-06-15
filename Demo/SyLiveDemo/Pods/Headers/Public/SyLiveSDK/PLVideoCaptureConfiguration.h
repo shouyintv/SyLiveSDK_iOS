@@ -1,1 +1,1 @@
-../../../../../../Pod/Library/StreamSDK/include/Common/PLVideoCaptureConfiguration.h
+../../../SyLiveSDK/Pod/Library/StreamSDK/include/Common/PLVideoCaptureConfiguration.h

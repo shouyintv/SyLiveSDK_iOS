@@ -8,7 +8,8 @@
     "SyLiveSDK": "http://www.quanmin.tv"
   },
   "source": {
-    "git": "https://github.com/shouyintv/SyLiveSDK_iOS.git"
+    "git": "https://github.com/shouyintv/SyLiveSDK_iOS.git",
+    "tag": "v0.1.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -131,6 +132,12 @@
       "name": "StreamSDK",
       "source_files": "Pod/Library/StreamSDK/include/*/*.h",
       "vendored_libraries": "Pod/Library/StreamSDK/*.a"
+    },
+    {
+      "name": "ZMSDK",
+      "source_files": "Pod/Library/ZMSDK/livenessModel/*.{h,m}",
+      "resources": "Pod/Library/ZMSDK/*.bundle",
+      "vendored_frameworks": "Pod/Library/ZMSDK/*.framework"
     }
   ]
 }

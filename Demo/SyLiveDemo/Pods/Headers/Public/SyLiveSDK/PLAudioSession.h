@@ -1,1 +1,1 @@
-../../../../../../Pod/Library/StreamSDK/include/Common/PLAudioSession.h
+../../../SyLiveSDK/Pod/Library/StreamSDK/include/Common/PLAudioSession.h
