@@ -9,9 +9,9 @@
 
 Pod::Spec.new do |s|
   s.name             = "SyLiveSDK"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "tv.shouyin.showing.open.sdk"
-  s.homepage         = "http://code.shanggou.la/ios/openSDK"
+  s.homepage         = "https://github.com/shouyintv/SyLiveSDK_iOS"
   s.license          = 'Apache License, Version 2.0'
   s.author           = { "SyLiveSDK" => "http://www.quanmin.tv" }
   s.source           = { :git => "https://github.com/shouyintv/SyLiveSDK_iOS.git", :tag => "v#{s.version}" }
@@ -28,20 +28,17 @@ Pod::Spec.new do |s|
 
   s.libraries = 'z', 'c++', 'icucore', 'sqlite3','iconv'       #依赖的系统类库
 
-  s.vendored_frameworks = 'Pod/Library/*.framework'
+  s.vendored_frameworks = 'Pod/Library/*.framework'  		   #SyLiveSDK 本身
 
-  s.resources =  ['Pod/Assets/SyLiveResource.bundle', 'Pod/Assets/SyLiveXib.bundle','Pod/Assets/NIMKitResouce.bundle']
+  s.resources =  ['Pod/Assets/SyLiveResource.bundle', 'Pod/Assets/SyLiveXib.bundle']
 
 
   #SyLiveSDK self依赖库
   s.dependency 'AMapLocation', '2.3.1'
   s.dependency 'ProtocolBuffers', '1.9.11'
-  s.dependency 'NIMSDK_LITE', '3.4.1'
   s.dependency 'SDWebImage', '~> 3.7.5'
   s.dependency 'SVProgressHUD', '~> 2.1.2'
-  s.dependency 'CocoaLumberjack', '~> 2.3.0'
   s.dependency 'SSZipArchive'
-  s.dependency 'LDNetDiagnoService'
   s.dependency 'UMengAnalytics', '~> 4.1.10'
   s.dependency 'MJExtension', '~> 3.0.10'
   s.dependency 'MJRefresh', '~> 3.1.0'
@@ -54,7 +51,10 @@ Pod::Spec.new do |s|
   s.dependency 'FCFileManager', '~> 1.0.17'
   s.dependency 'libextobjc', '~> 0.4.1'
   s.dependency 'Masonry', '~> 1.0.1'
-  # s.dependency 'Bugly', '~> 2.4.8'
+ # s.dependency 'LDNetDiagnoService'
+ # s.dependency 'CocoaLumberjack', '~> 2.3.0'
+ # s.dependency 'NIMSDK_LITE', '3.4.1'
+ # s.dependency 'Bugly', '~> 2.4.8'
 # #友盟
 #   s.dependency 'UMengUShare/UI'
 #   s.dependency 'UMengUShare/Social/WeChat'
