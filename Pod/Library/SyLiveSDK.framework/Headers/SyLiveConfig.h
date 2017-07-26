@@ -14,7 +14,6 @@
 
 
 typedef NS_ENUM(NSInteger, SyLiveLoginCode) {
-    LoginCodePackageIllegal = -1000,        /**< 包名不合法*/
     LoginCodeUserEmpty      = -999,         /**< user空数据*/
     LoginCodeSuccess        = 200,          /**< 登陆成功*/
 };

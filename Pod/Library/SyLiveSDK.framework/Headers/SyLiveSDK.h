@@ -24,23 +24,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)setDelegate:(id<SyLiveSDKInterface>)delegate;
 
-
-/**
- 启动时候调用
- @param appId 手印平台注册获取
- */
 - (void)registerApp:(NSString *)appId;
 
 /**
-建议第三方，在用户在自己平台登陆后，获取唯一uuid后，调用.
- 登陆结果在 SyLiveSDKInterface 协议中获取
- 
- @param uuid 第三方uuid
- @param utoken 第三方根据uid生成的utoken签名验证
+ 登陆接口
+ @param sid 三方使用全民sid登陆。
+ @param cid 三方使用全民cid登陆。
  */
-- (void)login:(NSString *)uuid token:(NSString *)utoken;
+- (void)login:(NSString *)sid cid:(NSString *)cid;
 
-//- (void)loginOut; /**< 登出调用*/
 
 //跳转具体功能模块。要在登陆成功之后调用有效
 /**
@@ -72,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  去 开播
  */
-- (void)jumpToTakeFromController:(UIViewController *)viewController;
+- (void)jumpToPushStreamFromController:(UIViewController *)viewController;
 
 /*
  清理缓存
