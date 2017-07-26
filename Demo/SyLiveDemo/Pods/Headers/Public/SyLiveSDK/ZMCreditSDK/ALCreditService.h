@@ -1,1 +1,1 @@
-../../../../SyLiveSDK/Pod/Library/ZMSDK/ZMCreditSDK.framework/Versions/A/Headers/ALCreditService.h
+../../../../../../../Pod/Library/ZMSDK/ZMCreditSDK.framework/Versions/A/Headers/ALCreditService.h

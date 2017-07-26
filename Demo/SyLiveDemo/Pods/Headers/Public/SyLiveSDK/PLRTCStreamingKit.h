@@ -1,1 +1,1 @@
-../../../SyLiveSDK/Pod/Library/StreamSDK/include/PLRTCStreamingKit/PLRTCStreamingKit.h
+../../../../../../Pod/Library/StreamSDK/include/PLRTCStreamingKit/PLRTCStreamingKit.h

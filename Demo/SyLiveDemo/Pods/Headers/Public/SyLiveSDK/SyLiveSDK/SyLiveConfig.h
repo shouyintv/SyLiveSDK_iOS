@@ -1,1 +1,1 @@
-../../../../SyLiveSDK/Pod/Library/SyLiveSDK.framework/Headers/SyLiveConfig.h
+../../../../../../../Pod/Library/SyLiveSDK.framework/Headers/SyLiveConfig.h

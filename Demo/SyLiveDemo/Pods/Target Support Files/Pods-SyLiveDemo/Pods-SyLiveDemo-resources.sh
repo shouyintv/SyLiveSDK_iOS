@@ -82,22 +82,20 @@ EOM
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
-  install_resource "SyLiveSDK/Pod/Assets/SyLiveResource.bundle"
-  install_resource "SyLiveSDK/Pod/Assets/SyLiveXib.bundle"
-  install_resource "SyLiveSDK/Pod/Assets/NIMKitResouce.bundle"
-  install_resource "SyLiveSDK/Pod/Library/ZMSDK/H5Service.bundle"
-  install_resource "SyLiveSDK/Pod/Library/ZMSDK/Poseidon.bundle"
-  install_resource "SyLiveSDK/Pod/Library/ZMSDK/ZMCreditBundle.bundle"
+  install_resource "../../../Pod/Assets/SyLiveResource.bundle"
+  install_resource "../../../Pod/Assets/SyLiveXib.bundle"
+  install_resource "../../../Pod/Library/ZMSDK/H5Service.bundle"
+  install_resource "../../../Pod/Library/ZMSDK/Poseidon.bundle"
+  install_resource "../../../Pod/Library/ZMSDK/ZMCreditBundle.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "MJRefresh/MJRefresh/MJRefresh.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
-  install_resource "SyLiveSDK/Pod/Assets/SyLiveResource.bundle"
-  install_resource "SyLiveSDK/Pod/Assets/SyLiveXib.bundle"
-  install_resource "SyLiveSDK/Pod/Assets/NIMKitResouce.bundle"
-  install_resource "SyLiveSDK/Pod/Library/ZMSDK/H5Service.bundle"
-  install_resource "SyLiveSDK/Pod/Library/ZMSDK/Poseidon.bundle"
-  install_resource "SyLiveSDK/Pod/Library/ZMSDK/ZMCreditBundle.bundle"
+  install_resource "../../../Pod/Assets/SyLiveResource.bundle"
+  install_resource "../../../Pod/Assets/SyLiveXib.bundle"
+  install_resource "../../../Pod/Library/ZMSDK/H5Service.bundle"
+  install_resource "../../../Pod/Library/ZMSDK/Poseidon.bundle"
+  install_resource "../../../Pod/Library/ZMSDK/ZMCreditBundle.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

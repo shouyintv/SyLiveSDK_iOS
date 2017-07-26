@@ -1,1 +1,1 @@
-../../../../SyLiveSDK/Pod/Library/SyLiveSDK.framework/Headers/SyLiveSDKInterface.h
+../../../../../../../Pod/Library/SyLiveSDK.framework/Headers/SyLiveSDKInterface.h

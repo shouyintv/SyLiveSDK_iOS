@@ -1,15 +1,15 @@
 {
   "name": "SyLiveSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "tv.shouyin.showing.open.sdk",
-  "homepage": "http://code.shanggou.la/ios/openSDK",
+  "homepage": "https://github.com/shouyintv/SyLiveSDK_iOS",
   "license": "Apache License, Version 2.0",
   "authors": {
     "SyLiveSDK": "http://www.quanmin.tv"
   },
   "source": {
     "git": "https://github.com/shouyintv/SyLiveSDK_iOS.git",
-    "tag": "v0.1.0"
+    "tag": "v0.1.1"
   },
   "platforms": {
     "ios": "8.0"
@@ -53,8 +53,7 @@
   "vendored_frameworks": "Pod/Library/*.framework",
   "resources": [
     "Pod/Assets/SyLiveResource.bundle",
-    "Pod/Assets/SyLiveXib.bundle",
-    "Pod/Assets/NIMKitResouce.bundle"
+    "Pod/Assets/SyLiveXib.bundle"
   ],
   "dependencies": {
     "AMapLocation": [
@@ -63,22 +62,13 @@
     "ProtocolBuffers": [
       "1.9.11"
     ],
-    "NIMSDK_LITE": [
-      "3.4.1"
-    ],
     "SDWebImage": [
       "~> 3.7.5"
     ],
     "SVProgressHUD": [
       "~> 2.1.2"
     ],
-    "CocoaLumberjack": [
-      "~> 2.3.0"
-    ],
     "SSZipArchive": [
-
-    ],
-    "LDNetDiagnoService": [
 
     ],
     "UMengAnalytics": [

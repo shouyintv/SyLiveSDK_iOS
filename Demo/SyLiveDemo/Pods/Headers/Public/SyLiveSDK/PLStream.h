@@ -1,1 +1,1 @@
-../../../SyLiveSDK/Pod/Library/StreamSDK/include/Common/PLStream.h
+../../../../../../Pod/Library/StreamSDK/include/Common/PLStream.h

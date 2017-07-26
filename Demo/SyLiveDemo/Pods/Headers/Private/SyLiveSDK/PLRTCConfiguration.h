@@ -1,1 +1,1 @@
-../../../SyLiveSDK/Pod/Library/StreamSDK/include/Common/PLRTCConfiguration.h
+../../../../../../Pod/Library/StreamSDK/include/Common/PLRTCConfiguration.h

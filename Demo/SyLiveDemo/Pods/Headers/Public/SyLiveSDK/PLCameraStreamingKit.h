@@ -1,1 +1,1 @@
-../../../SyLiveSDK/Pod/Library/StreamSDK/include/PLCameraStreamingKit/PLCameraStreamingKit.h
+../../../../../../Pod/Library/StreamSDK/include/PLCameraStreamingKit/PLCameraStreamingKit.h

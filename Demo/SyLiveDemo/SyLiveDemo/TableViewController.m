@@ -29,14 +29,14 @@
 #pragma mark - SyLiveSDK
 
 - (IBAction)login:(UIButton *)sender {
-    NSString *uid = nil;
+    NSString *sid = nil;
     if (_uidTF.text.length > 0) {
-        uid = _uidTF.text;
+        sid = _uidTF.text;
     }
     else {
-        uid = @"10010";
+        sid = @"9f2163e498cc6bcb92a965385282ddb0";
     }
-    [self.sdk login:uid token:uid];
+    [self.sdk login:sid cid:@"1"];
 }
 
 - (NSArray *)actions
@@ -92,7 +92,7 @@
 
 - (void)jumpToTake
 {
-    [self.sdk jumpToTakeFromController:self];
+    [self.sdk jumpToPushStreamFromController:self];
 }
 
 

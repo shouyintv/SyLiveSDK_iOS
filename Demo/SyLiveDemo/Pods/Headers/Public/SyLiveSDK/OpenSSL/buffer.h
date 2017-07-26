@@ -1,1 +1,1 @@
-../../../../SyLiveSDK/Pod/Library/ZMSDK/OpenSSL.framework/Headers/buffer.h
+../../../../../../../Pod/Library/ZMSDK/OpenSSL.framework/Headers/buffer.h

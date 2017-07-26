@@ -1,1 +1,0 @@
-../../../NIMSDK_LITE/NIMSDK/ExportHeaders/Protocol/NIMChatManagerProtocol.h

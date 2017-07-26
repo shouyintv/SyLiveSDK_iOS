@@ -1,1 +1,1 @@
-../../../../SyLiveSDK/Pod/Library/ZMSDK/OpenSSL.framework/Headers/ripemd.h
+../../../../../../../Pod/Library/ZMSDK/OpenSSL.framework/Headers/ripemd.h
